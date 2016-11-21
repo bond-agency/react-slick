@@ -72,7 +72,9 @@
     "react-dom": "^0.14.0 || ^15.0.1"
   },
   "jest": {
-    "setupFiles": ["test-setup.js"]
+    "setupFiles": [
+      "test-setup.js"
+    ]
   },
   "npmName": "react-slick",
   "npmFileMap": [

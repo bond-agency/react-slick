@@ -26,6 +26,17 @@ var helpers = {
 
     var currentSlide = props.rtl ? slideCount - 1 - props.initialSlide : props.initialSlide;
 
+    /**
+     * Fix the height if the slides contain images by firing
+     * the adaptHeight() function on image load.
+     */
+    slickList.querySelectorAll('img').forEach(function(image) {
+      var that = this;
+      image.onload = function() {
+        that.adaptHeight();
+      };
+    }, this);
+
     this.setState({
       slideCount,
       slideWidth,

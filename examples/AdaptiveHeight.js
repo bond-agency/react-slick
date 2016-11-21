@@ -15,7 +15,7 @@ export default class AdaptiveHeight extends Component {
       <div>
         <h2>Adaptive height</h2>
         <Slider {...settings}>
-          <div><h3>1</h3></div>
+          <img src="http://placehold.it/800x900" />
           <div>
             <h3>2</h3>
             <p>Hello</p>
@@ -26,7 +26,7 @@ export default class AdaptiveHeight extends Component {
             <p>Height is adaptive</p>
           </div>
           <div>
-            <h3>4</h3>
+            <img src="http://placehold.it/800x400" />
           </div>
           <div>
             <h3>5</h3>
