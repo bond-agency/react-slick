@@ -30,9 +30,10 @@ var helpers = {
      * Fix the height if the slides contain images by firing
      * the adaptHeight() function on image load.
      */
-    slickList.querySelectorAll('img').forEach(function(image) {
+    var images = [].slice.call(slickList.querySelectorAll('img'));
+    images.forEach(function (image) {
       var that = this;
-      image.onload = function() {
+      image.onload = function () {
         that.adaptHeight();
       };
     }, this);
