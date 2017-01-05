@@ -9,11 +9,11 @@
     "test": "jest",
     "dev-test": "jest --watch"
   },
-  "author": "Kiran Abburi",
+  "author": "Joonas Salovaara",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiran/react-slick"
+    "url": "https://github.com/bond-agency/react-slick"
   },
   "keywords": [
     "slick",
@@ -86,7 +86,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/akiran/react-slick/issues"
+    "url": "https://github.com/bond-agency/react-slick/issues"
   },
-  "homepage": "https://github.com/akiran/react-slick"
+  "homepage": "https://github.com/bond-agency/react-slick"
 }
